@@ -29,7 +29,11 @@ export default function Index() {
             Remix Docs
           </a>
         </li>
-        <button onClick={() => setCount(count + 1)}>Click Mse{count}</button>
+        <button onClick={() => setCount(count + 1)}>
+          Click this button to update the count. Now change this text, you will
+          see the new text without browser reload while the value of count is
+          preserved. Count is :{count}
+        </button>
       </ul>
     </div>
   );
