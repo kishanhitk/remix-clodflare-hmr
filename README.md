@@ -2,6 +2,8 @@
 
 - [Remix Docs](https://remix.run/docs)
 
+## Instruction to enable HMR - [kishans.in/blogs/enable-hmr-in-remix-cloudflare](https://kishans.in/blogs/enable-hmr-in-remix-cloudflare)
+
 ## Development
 
 You will be utilizing Wrangler for local development to emulate the Cloudflare runtime. This is already wired up in your package.json as the `dev` script:
